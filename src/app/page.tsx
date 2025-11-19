@@ -226,11 +226,12 @@ export default function Home() {
             </h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
               {[
-                "Certified in Cybersecurity (ISC)②",
-                "Certified Professional Penetration Tester (INE)③",
-                "Office Wireless Professional (OSWP)④",
-                "Certified Red Team Professional (CRTP)⑤",
-                "Certified AppSec Practitioner (CAP)"
+                "Certified in Cybersecurity (ISC)",
+                "Certified Professional Penetration Tester (INE)",
+                "Office Wireless Professional (OSWP)",
+                "Certified Red Team Professional (CRTP)",
+                "Certified AppSec Practitioner (CAP)",
+                "Junior Penetration Tester PT1 (THM)"
               ].map((cert, index) => (
                 <div key={index} className="bg-slate-800/80 p-4 rounded-lg border border-cyan-400/20 hover:border-cyan-400/40 transition-all group">
                   <div className="flex items-center">
@@ -256,6 +257,10 @@ export default function Home() {
               </div>
               <div className="bg-slate-800/80 p-5 rounded-xl border border-cyan-400/20">
                 <h3 className="text-cyan-400 font-medium mb-2">Level 4 Diploma in Computing</h3>
+                <p className="text-slate-300 font-mono text-sm">KBTC College</p>
+              </div>
+              <div className="bg-slate-800/80 p-5 rounded-xl border border-cyan-400/20">
+                <h3 className="text-cyan-400 font-medium mb-2">Level 5 Diploma in Computing</h3>
                 <p className="text-slate-300 font-mono text-sm">KBTC College</p>
               </div>
             </div>
