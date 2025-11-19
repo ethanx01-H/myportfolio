@@ -227,11 +227,12 @@ export default function Home() {
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
               {[
                 "Certified in Cybersecurity (ISC)",
-                "Certified Professional Penetration Tester (INE)",
-                "Office Wireless Professional (OSWP)",
+                "eLearn Certified Professional Penetration Tester (INE)",
+                "Offensive Security Wireless Professional (OSWP)",
                 "Certified Red Team Professional (CRTP)",
                 "Certified AppSec Practitioner (CAP)",
-                "Junior Penetration Tester PT1 (THM)"
+                "Junior Penetration Tester PT1 (THM)",
+                "Multi Cloud Red Team Analyst (CWL)"
               ].map((cert, index) => (
                 <div key={index} className="bg-slate-800/80 p-4 rounded-lg border border-cyan-400/20 hover:border-cyan-400/40 transition-all group">
                   <div className="flex items-center">
